@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NFDetailViewHeader">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="560"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="四排进阶战，教你挺进决赛圈" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3z7-wy-luP">
+                    <rect key="frame" x="10" y="20" width="355" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Gom-bH-r3U"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2018-3-8" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9z8-EI-nKs">
+                    <rect key="frame" x="285" y="78" width="80" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="HGb-gu-D6j"/>
+                        <constraint firstAttribute="height" constant="20" id="pH2-YN-CQN"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="football_news1" translatesAutoresizingMaskIntoConstraints="NO" id="NTs-sh-OK0">
+                    <rect key="frame" x="10" y="108" width="355" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="lDB-Ib-MUw"/>
+                    </constraints>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="H6H-jL-A1W">
+                    <rect key="frame" x="10" y="278" width="355" height="272"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <string key="text">一场比赛应有两队参加，每队上场队员不得多于11名，其中必须有一名守门员。如果任何一队少于7人则比赛不能开始。在由国际足联、洲际联合会或国家协会主办的正式比赛中，每场比赛最多可以使用3名替补队员。 竞赛规程应说明可以有几名替补队员被提名。在其他比赛中，可依据下列规定使用替补队员： 有关参赛队在最多替补人数上达成协议； 在比赛前通知裁判员； 如果比赛开始前未通知裁一场比赛应有两队参加，每队上场队员不得多于11名，其中必须有一名守门员。如果任何一队少于7人则比赛不能开始。在由国际足联、洲际联合会或国家协会主办的正式比赛中，每场比赛最多可以使用3名替补队员。 竞赛规程应说明可以有几名替补队员被提名。在其他比赛中，可依据下列规定使用替补队员： 有关参赛队在最多替补人数上达成协议； 在比赛前通知裁判员； 如果比赛开始前未通知裁</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="3z7-wy-luP" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="1Gy-F6-8oJ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="H6H-jL-A1W" secondAttribute="trailing" constant="10" id="2JU-8I-9aY"/>
+                <constraint firstItem="3z7-wy-luP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="BuR-uo-BHk"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="9z8-EI-nKs" secondAttribute="trailing" constant="10" id="Hfb-EO-KAt"/>
+                <constraint firstItem="H6H-jL-A1W" firstAttribute="top" secondItem="NTs-sh-OK0" secondAttribute="bottom" constant="20" id="Khp-Ix-7OA"/>
+                <constraint firstItem="3z7-wy-luP" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" constant="-10" id="bdf-VG-PwI"/>
+                <constraint firstItem="NTs-sh-OK0" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="cUu-Ss-UMp"/>
+                <constraint firstItem="9z8-EI-nKs" firstAttribute="top" secondItem="3z7-wy-luP" secondAttribute="bottom" constant="8" id="g31-fW-DqT"/>
+                <constraint firstItem="H6H-jL-A1W" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="osA-bK-hLb"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="NTs-sh-OK0" secondAttribute="trailing" constant="10" id="ouJ-vA-SJB"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="H6H-jL-A1W" secondAttribute="bottom" constant="10" id="psT-N3-Xbn"/>
+                <constraint firstItem="NTs-sh-OK0" firstAttribute="top" secondItem="9z8-EI-nKs" secondAttribute="bottom" constant="10" id="z3l-Hw-ahi"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="contentView" destination="H6H-jL-A1W" id="HMT-4G-Gr0"/>
+                <outlet property="imageView" destination="NTs-sh-OK0" id="JB5-DR-3e8"/>
+                <outlet property="timeLabel" destination="9z8-EI-nKs" id="iZH-OE-ASk"/>
+                <outlet property="titleLabel" destination="3z7-wy-luP" id="vRf-gt-055"/>
+            </connections>
+            <point key="canvasLocation" x="-100.5" y="-70"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="football_news1" width="335" height="150"/>
+    </resources>
+</document>
